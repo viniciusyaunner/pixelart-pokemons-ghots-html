@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: o;
+}
+body{
+    background-color: #000;
+    background-image: url(1521487477003.jpg);
+    position: relative;
+    width: 90%;
+    height: 100%;
+    background-size: cover;
+}
+div.sesh{
+    float: center;
+    margin: 20px auto;
+    margin-left: 200px;
+    background-color: #000;
+    filter: blur(1px);
+    opacity: 0.6;
+    width: 900px;
+    height: 500px;
+    transition: 0.5s;
+    display: block;
+}
+form input.btn{
+    background: none;
+    color: azure; 
+    border: 0;
+    width: 75px;
+    filter: blur(0px);
+    margin: 0;
+    margin-left: -866px;
+    padding: 2px;
+    transition: 0.5s;
+    border-bottom: 1px solid;
+    position: fixed;
+    float: left;
+    font-size: 20px;
+
+}
+div.sesh:hover{
+    filter: blur(0px);
+    opacity: 0.9;
+    transition: 0.5s;
+    overflow: hidden;
+}
+form input.btn:hover{
+    width: 890px;
+    transition: 0.5s;
+    border-bottom: 1px solid;
+    color: azure;
+}
+div.col{
+    float:left;  
+    height:430px;
+    width:250px;
+    border: 1px solid #FFF;
+    display: block;
+    margin: 15px;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden; 
+    padding: 1px;
+    margin-left: 20px;
+}
+div.col h2{
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    margin: auto;
+}
+div.col a{
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    margin: 5px;
+    display: inline-block;
+    text-decoration-line: none;
+    padding: 2px;
+    border: 1px solid #FFF;
+    transition: 0.5s;
+}
+div.col a:hover{
+    transform: scale(1.3);
+    margin: 5px;
+    background-color: #FFF;
+    color: black;
+    transition: 0.5s;
+}
