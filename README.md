@@ -1,3 +1,3 @@
-### Pokemons Ghosts made with html tables
+## Pokemons Ghosts made with html tables
 
 ![example](image.png)
